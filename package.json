@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "dev:weapp": "pnpm --filter=./projects/first-project dev:weapp",
+    "dev:alipay": "pnpm --filter=./projects/first-project dev:alipay",
+    "build:weapp": "pnpm --filter=./projects/first-project build:weapp",
+    "build:alipay": "pnpm --filter=./projects/first-project build:alipay"
+  }
+}
